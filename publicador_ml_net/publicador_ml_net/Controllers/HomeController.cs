@@ -12,5 +12,10 @@ namespace publicador_ml_net.Controllers
         {
             return View();
         }
+        public void ping()
+        {
+            Response.Write("pong");
+        }
+
     }
 }
